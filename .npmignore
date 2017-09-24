@@ -1,0 +1,10 @@
+#we need this file to avoid npm looking at .gitignore as we want to publish dist folder which is ignored in .gitignore
+
+build/
+
+# Node
+node_modules/
+npm-debug.log
+
+#Idea
+.idea/

@@ -1,0 +1,73 @@
+//
+// Licensed Materials - Property of IBM
+// 5724-Q36
+// (c) Copyright IBM Corp. 2017
+// US Government Users Restricted Rights - Use, duplication or disclosure
+// restricted by GSA ADP Schedule Contract with IBM Corp.
+//
+
+@import '~ibm-design-colors';
+
+.flip-card-front {
+  height:100%;
+  width:100%;
+  position: relative;
+  border: 1px solid color('gray',10);
+  background: color('white',0);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.flip-icon {
+  height:20px;
+  width:20px;
+  position:absolute;
+  top:5px;
+  cursor: pointer;
+  right:5px;
+  z-index: 3999;
+}
+
+.modal-container {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: color('white',0);
+}
+
+.modal-container:focus {
+  outline: none;
+}
+
+.outside-overlay-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: color('cerulean',90);
+}
+
+.flip-card-back.fullsize-view {
+  transition: all ease-in-out 0.4s;
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transition: rotateY(180deg);
+}
+.flip-card-back.fullsize-view {
+  padding-right: 1em;
+  height: calc(100% - 4em);
+  width: calc(100% - 3em);
+  border-top: 10px solid color('magenta',60);
+  margin: 2em 1em;
+}
+.flip-card-back .rotateY-inverse {
+  transform: rotateY(-180deg);
+  -webkit-transform: rotateY(-180deg);
+  -moz-transform: rotateY(-180deg);
+}

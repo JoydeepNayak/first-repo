@@ -1,0 +1,51 @@
+// Licensed Materials - Property of IBM
+// 5724-Q36
+// (c) Copyright IBM Corp. 2017
+// US Government Users Restricted Rights - Use, duplication or disclosure
+// restricted by GSA ADP Schedule Contract with IBM Corp.
+@import "~ibm-design-colors";
+
+.badge{
+    background-color:transparent;
+    position: relative;
+    white-space: nowrap;
+    background-color: transparent;
+    padding: 15px;
+    display: inline-block;
+}
+
+.badge-number {
+    color: color('white', 0);
+    display: inline-block;
+    text-align: center;
+    font-size: xx-small;
+    position: absolute;
+} 
+.badge-number svg, .badge-number svg text{
+width: 20px;
+height:20px;
+}
+
+.badge-number svg circle {
+    fill: color('magenta', 60);
+} 
+
+.top-right{
+    top: 3px;
+    right: 5px;
+}
+
+.top-left{
+    top: 3px;
+    left: 5px;
+}
+
+.bottom-right{
+    bottom: 3px;
+    right: 5px;
+}
+
+.bottom-left{
+    bottom: 3px;
+    left: 5px;
+}

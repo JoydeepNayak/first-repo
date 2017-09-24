@@ -1,0 +1,29 @@
+language: node_js
+group: bluezone
+node_js:
+- node
+before_install:
+- sudo apt-get install python-software-properties -y
+- sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y
+- sudo apt-get update -q
+- printf "registry=https://npm-registry.whitewater.ibm.com/\n//npm-registry.whitewater.ibm.com/:_authToken=${NPM_TOKEN}" > .npmrc
+- npm config set package-lock false
+before_script:
+- npm run lint
+- npm run build
+before_deploy:
+- npm run build:single
+branches:
+  only:
+  - master
+  - /^v\d+\.\d+(\.\d+)?(-\S*)?$/
+cache:
+  directories:
+  - node_modules
+deploy:
+  provider: npm
+  email: mlewandowski@pl.ibm.com
+  api_key: $NPM_TOKEN
+  skip_cleanup: true
+  on:
+    tags: true

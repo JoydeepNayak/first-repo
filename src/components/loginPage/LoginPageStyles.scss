@@ -1,0 +1,69 @@
+//Licensed Materials - Property of IBM
+//5724-Q36
+//(c) Copyright IBM Corp. 2017
+//US Government Users Restricted Rights - Use, duplication or disclosure
+//restricted by GSA ADP Schedule Contract with IBM Corp.
+
+@import '~ibm-design-colors';
+
+.login-page {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+
+  .login-page-main-div {
+    width: 500px;
+    border:solid;
+    border-width: 1px;
+    border-color: color('gray',10);
+  }
+
+  h3 {
+    padding: 50px 102px 34px 102px;
+    background-color: color('neutral-white',2);
+    font-size: 30px;
+    color: color('cerulean', 80);
+    font-family: "Helvetica Neue Roman", "Helvetica Neue for IBM", sans-serif;
+    text-align: center;
+  }
+
+  .top-belt {
+    height: 6px;
+    width: 100%;
+    background-color: color('magenta',60);
+  }
+
+  .fields-and-button {
+    padding-bottom: 56px;
+    padding-left: 102px;
+    padding-right: 102px;
+  }
+
+  .sign-in-button {
+    float: right;
+  }
+
+  .message-placeholder {
+    height: 60px;
+    width: 100%;
+    overflow: hidden;
+  }
+  .alert-message {
+    padding-left: 15px;
+    display: inline;
+    font-weight: 300;
+    font-family: "Helvetica Neue Roman", "Helvetica Neue for IBM", sans-serif;
+  }
+  .empty-belt {
+    height: 32px;
+    width: 100%;
+  }
+  .overlay_center {
+    opacity: 1;
+    position: fixed;
+    left:50%;
+    top:50%;
+  }
+}

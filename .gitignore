@@ -1,0 +1,10 @@
+build/
+dist/
+lib/
+
+# Node
+node_modules/
+npm-debug.log
+
+#Idea
+.idea/
