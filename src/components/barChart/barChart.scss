@@ -1,0 +1,49 @@
+// Licensed Materials - Property of IBM
+// 5724-Q36
+// (c) Copyright IBM Corp. 2017
+// US Government Users Restricted Rights - Use, duplication or disclosure
+// restricted by GSA ADP Schedule Contract with IBM Corp.
+@import '~ibm-design-colors';
+
+.chartContainer {
+  flex: 1 1 auto;
+  height: 100%;
+  width: 100%;
+}
+.container {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+.bar {
+  fill: color('aqua', 70);
+  &:hover .stack {
+    fill: color('blue', 60);
+  }
+}
+
+.stack {
+  &.clickable {
+    cursor: pointer;
+  }
+}
+.text {
+  fill: color('neutral white', 3);
+}
+
+.xAxisLabel {
+  font-size: 1em;
+}
+
+.yAxisLabel {
+  font-size: 1em;
+  tspan {
+    font-family: Helvetica Neue for IBM;
+  }
+}
+
+.title {
+  font-weight: 500;
+  font-size: 20px;
+    
+}

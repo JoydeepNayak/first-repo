@@ -1,0 +1,49 @@
+ /*
+* Licensed Materials - Property of IBM
+* 5724-Q36
+* (c) Copyright IBM Corp. 2016, 2017
+* US Government Users Restricted Rights - Use, duplication or disclosure
+* restricted by GSA ADP Schedule Contract with IBM Corp.
+*/
+
+@import "~ibm-design-colors";
+.container{ 
+ position: relative; 
+ display:inline-block;
+}
+.pannel {
+ position: absolute; 
+ background-color: color('grey',10);
+ overflow:hidden;
+ z-index:1002;
+ -webkit-transition: 0.8s ease;
+ /* Safari */ 
+ transition: 0.8s ease;
+}
+
+/*RIGHT*/
+.open-drawer-right{ 
+ width: 200px; 
+}
+.close-drawer-right{
+ width: 0px;
+}
+.right{
+ top:0px;
+ left:23px;
+}
+
+/*LEFT*/
+.open-drawer-left{  width: 200px; margin-left: -190px; } 
+.close-drawer-left{ width:0px; margin-left: 0px;}
+.left{ top:0px; left:0px; }
+
+/*UP*/
+.open-drawer-up{ height: 100px; margin-top: -100px;} 
+.close-drawer-up{ height: 0px; margin-top: 0px;}
+.up{ top:0px; left:0px; }
+
+/*DOWN*/ 
+.open-drawer-down{ height: 100px; margin-bottom: -100px;} 
+.close-drawer-down{ height: 0px; margin-bottom: 0px;}
+.down{ top:20px; left:0px; }

@@ -1,0 +1,20 @@
+//
+// Licensed Materials - Property of IBM
+// 5724-Q36
+// (c) Copyright IBM Corp. 2017
+// US Government Users Restricted Rights - Use, duplication or disclosure
+// restricted by GSA ADP Schedule Contract with IBM Corp.
+//
+
+@import '~ibm-design-colors';
+
+.loader-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background: color('white',0,0.5);
+  & > div {
+    display: inline-block;
+  }
+}

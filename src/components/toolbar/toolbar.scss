@@ -1,0 +1,39 @@
+/*
+* Licensed Materials - Property of IBM
+* 5724-Q36
+* (c) Copyright IBM Corp. 2017
+* US Government Users Restricted Rights - Use, duplication or disclosure
+* restricted by GSA ADP Schedule Contract with IBM Corp.
+*/
+@import '~ibm-design-colors';
+
+.toolbar-container {
+  height: 3.5em;
+  width: 100%;
+  background-color: color('gray',10);
+}
+
+.toolbar-item {
+  display:flex;
+  align-items:center ;
+  height: 100%;
+  padding: 5px 10px;
+  box-sizing: border-box;
+}
+
+.position-right {
+  float: right;
+}
+
+.position-left {
+  float: left;
+}
+
+.toolbar-separator {
+  display:flex;
+  align-items:center ;
+  height: auto;
+  margin : 10px;
+  padding-bottom: 3px;
+  box-sizing: border-box;
+}

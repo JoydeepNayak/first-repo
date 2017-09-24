@@ -1,0 +1,40 @@
+@import "~ibm-design-colors";
+
+$header-height: 50px;
+
+.header_container {
+  background-color: color("blue", 90);
+  color: color("cool white", 2);
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  height: $header-height;
+}
+.header_item {
+  padding: 0 20px 0 20px;
+}
+.header_align_left {
+  display: flex;
+  flex-flow: row;
+}
+.header_align_right {
+  display: flex;
+  flex-flow: row;
+  margin-left: auto
+}
+.header_icon {
+  fill: color("teal", 30);
+}
+.header_children {
+  overflow-y: hidden;
+}
+.header_menu_right {
+  position: absolute;
+  right: 0;
+  width: max-content;
+}
+.header_main_menu {
+  height: calc(100% - #{$header-height});
+  left: 0;
+  width: fit-content;
+}

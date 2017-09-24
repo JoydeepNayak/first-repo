@@ -1,0 +1,51 @@
+//
+// Licensed Materials - Property of IBM
+// 5724-Q36
+// (c) Copyright IBM Corp. 2017
+// US Government Users Restricted Rights - Use, duplication or disclosure
+// restricted by GSA ADP Schedule Contract with IBM Corp.
+//
+@import '~ibm-design-colors';
+
+.dialog-header {
+  display:inline-block;
+}
+.dialog-header-item {
+  float:left;
+}
+
+.dialog-header-icon {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+@media (min-width:48.063em) {
+  .dialog-header-icon {
+    top: 58px;
+    left: 50px;
+  }
+}
+
+.icon-error {
+  width: 32px;
+  height: 32px;
+  fill: color('red',60);
+}
+
+// styles.modalError is added until ap-components-react fixes the error
+.modal--error svg path {
+  fill: color('red',60);
+}
+
+.icon-warning {
+  width: 32px;
+  height: 32px;
+  fill: color('yellow',60);
+}
+.icon-info {
+  width: 32px;
+  height: 32px;
+  fill: color('blue',60);
+}
+

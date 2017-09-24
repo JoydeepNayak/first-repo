@@ -1,0 +1,138 @@
+{
+  "title": "Main Menu",
+  "link": "",
+  "mainMenuFields": [
+    {
+      "name": "Glossary",
+      "link": "",
+      "sub": [
+        {
+          "title": "Glossary",
+          "iconUrl": "/assets/icons/back-arrow.png",
+          "mainMenuFields": [
+            {
+              "name": "Terms",
+              "link": "/ibm/iis/igc/terms"
+            },
+            {
+              "name": "Terms Type Hierarchy",
+              "link": ""
+            },
+            {
+              "name": "Categories",
+              "link": ""
+            },
+            {
+              "name": "Category Hierarchy",
+              "link": ""
+            },
+            {
+              "name": " Info Governance Rules",
+              "link": ""
+            },
+            {
+              "name": "Info Governance Policies",
+              "link": ""
+            },
+            {
+              "name": "Info Governance Policy Hierarchy",
+              "link": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Information Assets",
+      "link": "",
+      "sub": [
+        {
+          "title": "Information Assets",
+          "iconUrl": "/assets/icons/back-arrow.png",
+          "mainMenuFields": [
+            {
+              "name": "Browse Hierarchies",
+              "link": "",
+              "sub": [
+                {
+                  "title": "Browse Hierarchies",
+                  "iconUrl": "/assets/icons/back-arrow.png",
+                  "showParentList": true,
+                  "mainMenuFields": [
+                    {
+                      "name": "Implemented Data Resources",
+                      "iconUrl": "/assets/icons/default-icon.png",
+                      "link": ""
+                    },
+                    {
+                      "name": "Logical Data Models",
+                      "iconUrl": "/assets/icons/default-icon.png",
+                      "link": ""
+                    },
+                    {
+                      "name": "Physical Data Models",
+                      "iconUrl": "/assets/icons/default-icon.png",
+                      "link": ""
+                    },
+                    {
+                      "name": "XML Schema Definitions",
+                      "iconUrl": "/assets/icons/default-icon.png",
+                      "link": ""
+                    },
+                    {
+                      "name": "Data Classes",
+                      "iconUrl": "/assets/icons/default-icon.png",
+                      "link": ""
+                    },
+                    {
+                      "name": "Master Data Models",
+                      "iconUrl": "/assets/icons/default-icon.png",
+                      "link": ""
+                    },
+                    {
+                      "name": "Applications",
+                      "iconUrl": "/assets/icons/default-icon.png",
+                      "link": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Monitor Lineage Tasks",
+              "link": ""
+            },
+            {
+              "name": "Browse All",
+              "link": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Labels",
+      "link": "/ibm/iis/igc/labels"
+    },
+    {
+      "name": "Queries",
+      "link": ""
+    },
+    {
+      "name": "Collections",
+      "link": "/ibm/iis/igc/collection"
+    },
+    {
+      "name": "Data Integration",
+      "link": ""
+    },
+    {
+      "name": "Info Governance Dashboard",
+      "link": ""
+    },
+    {
+      "name": "Administration",
+      "link": "/ibm/iis/igc/administration"
+    }
+  ]
+}

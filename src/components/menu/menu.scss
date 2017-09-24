@@ -1,0 +1,63 @@
+@import '~ibm-design-colors';
+
+.menu {
+  .menu-icon {
+    cursor: pointer; 
+    svg {
+      margin: 8px 0 0 8px;
+      width: 32px;
+      height: 32px;
+      fill: color('teal', 20);
+    }
+  }
+  .hide {
+    display: none;
+  }
+  .nav-menu {
+    background-color: color('cerulean', 70);
+    position: absolute;
+    z-index: 9999;
+    padding: 1em 0;
+    a {
+      display: block;
+      line-height: 2em;
+      padding: 0px 1em;
+    }
+    .menu-header {
+      font-family: 'Verdana-Bold', 'Verdana Bold', 'Verdana';
+      font-weight: 700;
+      font-size: 1em;
+      cursor: default;
+      color: color('teal', 20);
+    }
+    .menu-link {
+      font-family: 'Verdana';
+      font-weight: 400;
+      font-size: 1em;
+      color: color('white', 0); 
+      &:hover {
+        background-color: color('teal', 20);
+        color: color('gray', 70);
+      }
+      cursor: pointer;
+    }
+    svg {
+      width: 24px;
+      height: 24px;
+      fill: color('teal', 20);
+      vertical-align: middle;
+      margin-right: 0.5em;
+      cursor: pointer;
+    }
+    .notification-count {
+      float: right;
+      color: color('cerulean', 70);
+      background-color: color('yellow', 10);
+      border-radius: 2em;
+      width: 2em;
+      height: 2em;
+      text-align: center;
+      line-height: 2em;
+    }
+  }
+}
